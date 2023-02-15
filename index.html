@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asian Kitchen</title>
+    <link rel="stylesheet" href="index.js">
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zilla+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boostrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="menu">
+        <!-- title -->
+        <div class="title">
+          <h2>Asian Kitchen's Menu</h2>
+        </div>
+        <!-- filter buttons-->
+        <div class="btn-container">
+          <div>
+            <button type="button" class="btn btn-outline-dark btn-item" data-id="All">All</button>
+            <button type="button" class="btn btn-outline-dark btn-item" data-id="Korea">Korea</button>
+            <button type="button" class="btn btn-outline-dark btn-item" data-id="Japan">Japan</button>
+            <button type="button" class="btn btn-outline-dark btn-item" data-id="China">China</button>
+          </div>
+        </div>
+        
+        <!-- menu items -->
+        <div class="section-center row ">
+          <!-- single-item -->
+          <div class="container text-center ">
+            <div class="row">
+              <div class="col-lg-6  menu-items col-sm-12" id="1">
+                <div class="col-4">
+                   <img class="photo" src="https://twoplaidaprons.com/wp-content/uploads/2020/09/tteokbokki-top-down-view-of-tteokbokki-in-a-bowl-500x500.jpg" alt="Tteokbokki">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Tteokbokki</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">10.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Spicy rice cakes, serving with fish cake.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="2">
+                <div class="col-4">
+                   <img class="photo" src="https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg" alt="Chicken">
+                </div>
+                <div class="col-8 text menu-info">
+                  <div class="buy ">
+                   <div>
+                    <h4>Chicken Ramen</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">7.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Chicken noodle soup, serving with vegetables such as soy bean,<br> green onion. In an optional you can ask for egg.</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="3">
+                <div class="col-4">
+                   <img class="photo" src="https://dwellbymichelle.com/wp-content/uploads/2020/05/DWELL-bibimbap.jpg" alt="Bibimbap">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Bibimbap</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">8.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Boiling vegetables, serving with special hot sauce</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="4">
+                <div class="col-4">
+                   <img class="photo" src="https://www.savingdessert.com/wp-content/uploads/2019/02/Dan-Dan-Noodles-10.jpg" alt="Dan">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Dan Dan Mian</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">5.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Dan dan noodle, serving with green onion</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="5">
+                <div class="col-4">
+                   <img class="photo" src="https://salu-salo.com/wp-content/uploads/2013/02/Yangzhou-Fried-Rice1.jpg" alt="Yangzhou">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Yangzhou Fried Rice</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">12.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Yangzhou style fried rice, serving with bean and pickles</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="6">
+                <div class="col-4">
+                   <img class="photo" src="https://www.manusmenu.com/wp-content/uploads/2017/08/Onigiri-3-1-of-1.jpg" alt="Onigiri">
+                </div>
+                <div class="col-8 text  menu-info" >
+                  <div class="buy">
+                   <div>
+                    <h4>Onigiri</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">9.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Rice Sandwich, serving with soy sauce</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="7">
+                <div class="col-4">
+                   <img class="photo" src="https://www.curiouscuisiniere.com/wp-content/uploads/2020/04/Jajangmyeon-Korean-Noodles-in-Black-Bean-Sauce5.1200H-720x540.jpg" alt="Jajangmyeon">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Jajangmyeon</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">15.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Black bean sauce noodle, serving with green onion</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="8">
+                <div class="col-4">
+                   <img class="photo" src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/F688C2F6-86EC-46C4-B9C7-A6BA01DF7437/Derivates/32E3E72A-F786-406D-AF7F-B30980A9AC6C.jpg" alt="Ma">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy">
+                   <div>
+                    <h4>Ma Yi Shang Shu</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">12.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title"></div>
+                   <div class="menu-title1">
+                   <p>Hot pepper sauce noodle, serving with soy bean and onion</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6  menu-items col-sm-12" id="9">
+                <div class="col-4">
+                   <img class="photo" src="https://www.justonecookbook.com/wp-content/uploads/2011/10/Dorayaki-New-500x400.jpg" alt="Doroyaki">
+                </div>
+                <div class="col-8 text  menu-info">
+                  <div class="buy menu-title">
+                   <div>
+                    <h4>Doroyaki</h4>
+                   </div>
+                   <div>
+                    <h4 class="price">3.99</h4>
+                   </div>
+                  </div>
+                   <div class="menu-title1">
+                   <p>Red bean paste dessert, serving with honey.</p>
+                  </div>
+                </div>
+              </div>
+
+              
+
+          <!-- end of single item -->
+        </div>
+      </section>
+    </div>
+<script src="index.js"></script>
+  </body>
+</html>
